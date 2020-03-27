@@ -14,7 +14,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import static org.junit.Assert.assertTrue;
 
-public class CreateAccountStepdefs extends CucumberSpringContextConfiguration{
+public class CreateAccountStepdefs {
 
     Logger log = LoggerFactory.getLogger(CreateAccountStepdefs.class);
     @Autowired
